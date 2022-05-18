@@ -1,0 +1,53 @@
+@import "./theme.css"
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    
+}
+div.left{
+    background-color: var(--mavi-11);
+    height: 90%;
+    width: 33.3%;
+    box-shadow: var(--acik-gölge);
+
+}
+div.right{
+    background-color:var(--mavi-6);
+    height: 75%;
+    width: 33.3%;
+    box-shadow: var(--acik-gölge);
+}
+div.center{
+    background-color:var(--mavi-10);
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: var(--koyu-gölge);
+    border-radius: 0.2rem;
+    height: 3rem;
+    align-items: stretch;
+    
+}
+a{  
+    width: 33.3%;
+    background-color: aqua;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a:hover{
+    background-color: var(--mavi-2);
+    color: aliceblue;
+}
